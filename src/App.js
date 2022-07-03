@@ -12,7 +12,7 @@ function App() {
           
 
 
-          <Route path="tailwind" element={<Outlet />}>
+          <Route path="/" element={<Outlet />}>
             <Route index element={<Taillwind />} />
           </Route>
           
